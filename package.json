@@ -1,0 +1,12 @@
+{
+  "name": "flexpath-javascript-react-frontend-assignment-main",
+  "version": "1.0.0",
+  "description": "Congratulations on getting to this assessment! You have learned a TON about JavaScript, HTML, CSS, and React so far in this course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
