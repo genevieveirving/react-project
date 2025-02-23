@@ -12,9 +12,11 @@ function App() {
             <Link to="/" className="navbar-brand ms-4 nav-link">
               User Behavior Data
             </Link>
-            <Link to="/search" className="nav-link text-white ms-4">
-              Search Through Dataset
-            </Link>
+            <div className="navbar-nav"> {/* Group links together */}
+              <Link to="/search" className="nav-link text-white">
+                Search Through Dataset
+              </Link>
+            </div>
           </div>
         </nav>
         <hr />
@@ -28,3 +30,4 @@ function App() {
 }
 
 export default App;
+
