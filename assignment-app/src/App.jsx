@@ -12,16 +12,9 @@ function App() {
             <Link to="/" className="navbar-brand ms-4 nav-link">
               User Behavior Data
             </Link>
-            <div className="navbar-nav">
-              <Link className="nav-link text-white" to="/search">
-                Search Through Dataset
-              </Link>
-            </div>
-            <div className="navbar-nav ms-auto"> {/* Align "Search" to the right */}
-              <Link to="/search" className="nav-link text-light ms-3">
-                Search
-              </Link>
-            </div>
+            <Link to="/search" className="nav-link text-white ms-4">
+              Search Through Dataset
+            </Link>
           </div>
         </nav>
         <hr />
