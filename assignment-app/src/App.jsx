@@ -9,11 +9,11 @@ function App() {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
           <div className="container-fluid">
-            <Link to="/" className="navbar-brand ms-4 nav-link">
-              User Behavior Data
-            </Link>
-            <div className="navbar-nav"> {/* Group links together */}
-              <Link to="/search" className="nav-link text-white">
+            <div className="navbar-nav d-flex align-items-center">
+              <Link to="/" className="navbar-brand ms-4 nav-link">
+                User Behavior Data
+              </Link>
+              <Link to="/search" className="nav-link text-white ms-4">
                 Search Through Dataset
               </Link>
             </div>
@@ -30,4 +30,5 @@ function App() {
 }
 
 export default App;
+
 
